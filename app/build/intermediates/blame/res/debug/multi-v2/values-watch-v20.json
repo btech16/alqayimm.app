@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/h_ssd_appsdata/.Android_Projects/com.alqayim.btech/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/h_ssd_appsdata/AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/111d7bbded59a3af8229a28153a04e47/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

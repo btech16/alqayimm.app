@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/h_ssd_appsdata/.Android_Projects/com.alqayim.btech/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/h_ssd_appsdata/AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/111d7bbded59a3af8229a28153a04e47/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/h_ssd_appsdata/AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/68113e7d8ae9b2b365aa0996d6a191db/core-1.3.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

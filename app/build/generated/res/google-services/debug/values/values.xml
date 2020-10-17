@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">452419316434-kpvesm81qjod3091os2dej3l9mdrp0ho.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://alqayimm-btech.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">452419316434</string>
+    <string name="google_api_key" translatable="false">AIzaSyBe4gRXyX53kA-IAweOl2Y6acsOjFsBTAQ</string>
+    <string name="google_app_id" translatable="false">1:452419316434:android:26092c7998a6eaf1311b0b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBe4gRXyX53kA-IAweOl2Y6acsOjFsBTAQ</string>
+    <string name="google_storage_bucket" translatable="false">alqayimm-btech.appspot.com</string>
+    <string name="project_id" translatable="false">alqayimm-btech</string>
+</resources>

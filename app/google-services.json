@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "452419316434",
+    "firebase_url": "https://alqayimm-btech.firebaseio.com",
+    "project_id": "alqayimm-btech",
+    "storage_bucket": "alqayimm-btech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452419316434:android:26092c7998a6eaf1311b0b",
+        "android_client_info": {
+          "package_name": "com.alqayim.btech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452419316434-kpvesm81qjod3091os2dej3l9mdrp0ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe4gRXyX53kA-IAweOl2Y6acsOjFsBTAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452419316434-kpvesm81qjod3091os2dej3l9mdrp0ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

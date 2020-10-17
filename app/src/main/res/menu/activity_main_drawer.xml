@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+<item android:title="موقع المعهد الرسمي"/>
+    <item
+        android:title="الصفحة الرئيسية"
+        android:icon="@drawable/ic_baseline_home_24"
+
+        />
+
+    <item
+        android:title="تحميل الدوس والتفريغات"
+        android:icon="@drawable/ic_baseline_cloud_download_24"
+        />
+main
+    <item
+        android:title="قناة التيليغرام"
+        android:icon="@drawable/ic_baseline_message_24"
+        />
+
+    </group>
+</menu>
