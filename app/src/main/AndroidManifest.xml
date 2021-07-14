@@ -24,7 +24,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NoInternet"></activity>
         <activity
             android:name=".MainActivityJ"
             android:configChanges="orientation|screenSize">
@@ -36,10 +35,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:configChanges="orientation|screenSize"></activity>
+            android:configChanges="orientation|screenSize" />
         <activity
             android:name=".splash_screen"
-            android:configChanges="orientation|screenSize"></activity>
+            android:configChanges="orientation|screenSize" />
 
         <service
             android:name=".MyFirebaseMessagingService"

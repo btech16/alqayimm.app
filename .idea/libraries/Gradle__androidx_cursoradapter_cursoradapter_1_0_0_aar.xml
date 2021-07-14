@@ -5,10 +5,19 @@
       <root url="file://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/34b924e474b625964dfb7c1394c81b61/cursoradapter-1.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/34b924e474b625964dfb7c1394c81b61/cursoradapter-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/34b924e474b625964dfb7c1394c81b61/cursoradapter-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d239f788e2b2042b7e854e97dd7d345/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a714dcb942c348dd15292434c4846bd0/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82c26f608470aa9e516f217f697d1c04/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d53c8e05b40ca8b49ea88be02176ddf/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b4fbac4b67022fe1fe6b0acbc518cb55/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07c7035a5fdbd6f67658f2e03e1bdc6e/transformed/cursoradapter-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/07c7035a5fdbd6f67658f2e03e1bdc6e/transformed/cursoradapter-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/07c7035a5fdbd6f67658f2e03e1bdc6e/transformed/cursoradapter-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/modules-2/files-2.1/androidx.cursoradapter/cursoradapter/1.0.0/1e323083b41c31fd4d45510dfce50614963c3c6c/cursoradapter-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.cursoradapter/cursoradapter/1.0.0/1e323083b41c31fd4d45510dfce50614963c3c6c/cursoradapter-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-iid-interop:17.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/84c21b7b949c6b3cada0e2b204e3b893/transformed/jetified-firebase-iid-interop-17.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/093d587266f8960158abbe803bda1faf/transformed/jetified-firebase-iid-interop-17.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/64a8decabbf31294cd98f2064675a98d/transformed/jetified-firebase-iid-interop-17.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/64a8decabbf31294cd98f2064675a98d/transformed/jetified-firebase-iid-interop-17.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/64a8decabbf31294cd98f2064675a98d/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-iid-interop/17.1.0/7fad4ae6f5c2016d5c7babbbf020b6ac08a9cb08/firebase-iid-interop-17.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -5,10 +5,19 @@
       <root url="file://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/d10a3eb024e99f3480c784b497b169f6/viewpager-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/d10a3eb024e99f3480c784b497b169f6/viewpager-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/d10a3eb024e99f3480c784b497b169f6/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1389c5695d1918c9a980f44eb596653a/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f7221c5b57dd0f0d2d97d0de3cb86ba/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5199ea6d37e3e33092614990130286f7/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/116e6f56d72084a36d0aaa475dc2783b/transformed/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8ddf2972664a1fe5788a627057ee162d/transformed/viewpager-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c46dd9e93f18392ffbd9a8f10faa6555/transformed/viewpager-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c46dd9e93f18392ffbd9a8f10faa6555/transformed/viewpager-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c46dd9e93f18392ffbd9a8f10faa6555/transformed/viewpager-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

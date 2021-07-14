@@ -36,7 +36,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.alqayim.btech.NoInternet" />
         <activity
             android:name="com.alqayim.btech.MainActivityJ"
             android:configChanges="orientation|screenSize" >

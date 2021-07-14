@@ -20,7 +20,9 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+/*
 import com.google.firebase.iid.FirebaseInstanceId
+*/
 import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -40,7 +42,10 @@ class MainActivity : AppCompatActivity() {
         myWebView.settings.javaScriptCanOpenWindowsAutomatically
 
         FirebaseMessaging.getInstance().isAutoInitEnabled = true
+        /*
         notification()
+        */
+
         //Download Listener
         myWebView.setDownloadListener { url, userAgent, contentDisposition, mimetype, contentLength ->
             //checking Runtime permissions
@@ -171,7 +176,7 @@ class MainActivity : AppCompatActivity() {
             .setNegativeButton("لا", null)
             .show()
     }
-
+/*
     private fun notification() {
         FirebaseInstanceId.getInstance().instanceId.addOnCompleteListener {
             it.result?.token?.let {
@@ -180,7 +185,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
+*/
 
 }
 

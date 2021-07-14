@@ -336,8 +336,10 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_cloud_download_24" />
-                            <entry key="sourceFile" value="C:\Users\bmms3\Desktop\logo.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="autoMirrored" value="true" />
+                            <entry key="outputName" value="ic_slow_internet_speed" />
+                            <entry key="sourceFile" value="E:\التنزيلات\slow-internet-speed.svg" />
                           </map>
                         </option>
                       </PersistentState>

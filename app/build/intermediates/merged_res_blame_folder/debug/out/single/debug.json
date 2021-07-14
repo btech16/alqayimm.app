@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_slow_internet_speed.png.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_slow_internet_speed.png"
+    },
+    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_home_24.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_home_24.png"
     },
@@ -44,10 +48,6 @@
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\layout_swipe_layout.xml.flat",
-        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\layout\\swipe_layout.xml"
-    },
-    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_stat_name.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\drawable-xhdpi\\ic_stat_name.png"
     },
@@ -56,8 +56,16 @@
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_home_24.png"
     },
     {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_slow_internet_speed.png.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_slow_internet_speed.png"
+    },
+    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_stat_name.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_stat_name.png"
+    },
+    {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_slow_internet_speed.png.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_slow_internet_speed.png"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_cloud_download_24.png.flat",
@@ -74,6 +82,10 @@
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_home_24.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_slow_internet_speed.png.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_slow_internet_speed.png"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_cloud_download_24.png.flat",
@@ -100,6 +112,10 @@
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_name.png"
     },
     {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\menu_action_bar_menu.xml.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\menu\\action_bar_menu.xml"
+    },
+    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_message_24.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_message_24.png"
     },
@@ -112,20 +128,16 @@
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_no_internet.xml.flat",
-        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\layout\\activity_no_internet.xml"
-    },
-    {
-        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\layout\\nav_header_main.xml"
-    },
-    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_cloud_download_24.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_cloud_download_24.png"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_slow_internet_speed.png.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_slow_internet_speed.png"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -148,12 +160,20 @@
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_message_24.png"
     },
     {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_slow_internet_speed.png.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_slow_internet_speed.png"
+    },
+    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_app_icon.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_app_icon.png"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_app_icon.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_app_icon.png"
+    },
+    {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_main.xml.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\layout-v17\\activity_main.xml"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_message_24.png.flat",
@@ -192,6 +212,10 @@
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_slow_internet_speed.xml.flat",
+        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_slow_internet_speed.xml"
+    },
+    {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_app_icon.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_app_icon.png"
     },
@@ -202,10 +226,6 @@
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_app_icon.png.flat",
         "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_app_icon.png"
-    },
-    {
-        "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "D:\\_Android_Projects\\com.alqayim.btech\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
         "merged": "D:\\_Android_Projects\\com.alqayim.btech\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

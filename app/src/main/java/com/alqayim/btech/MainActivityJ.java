@@ -1,5 +1,6 @@
 package com.alqayim.btech;
 
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -14,18 +15,26 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.DownloadListener;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 public class MainActivityJ extends AppCompatActivity {
 
-//    comment
+    //تعريف متغيرات
+
+
     WebView webView;
     boolean booleanNoOk;
     String homeUrl = "https://alqayim.org/";
@@ -40,19 +49,24 @@ public class MainActivityJ extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        Go to force Right to Left method
         forceRTLIfSupported();
 
-        webView = (WebView) this.findViewById(R.id.myWebView);
+//        inflate webview
+        webView = findViewById(R.id.myWebView);
 
-        //enables javascript in webView
+//        enables javascript in webView
         webView.getSettings().setJavaScriptEnabled(true);
 
-        //set download listener
+//        set download listener to downloadlistrener method
         webView.setDownloadListener(downloadlistener);
 
-            //loads website homepage to webView
-            webView.loadUrl(homeUrl);
+//        loads website homepage to webView
+            webView.loadUrl(appSiteUrl);
 
+
+        webView.getSettings().setLightTouchEnabled(true);
 
 //        Set progress bar
             webView.setWebViewClient(new WebViewClient() {
@@ -60,6 +74,15 @@ public class MainActivityJ extends AppCompatActivity {
                 @Override
                 public void onPageStarted(WebView view, String url, Bitmap favicon) {
                     super.onPageStarted(view, url, favicon);
+
+
+//                   Block facebook and twitter and youtube sites
+                    if (url.contains("facebook") || url.contains("twitter")  || url.contains("youtube")) {
+                        Toast.makeText(MainActivityJ.this, "لا يمكنك الدخول إلى هذا الموقع", Toast.LENGTH_SHORT).show();
+                        webView.stopLoading();
+                    }
+
+//                    Show progress bar is page loading and show loading in action bar
                     findViewById(R.id.pb_WebView).setVisibility(View.VISIBLE);
                     setTitle("جارِ تحميل الصفحة...");
                 }
@@ -67,6 +90,8 @@ public class MainActivityJ extends AppCompatActivity {
                 @Override
                 public void onPageFinished(WebView view, String url) {
                     super.onPageFinished(view, url);
+
+//                    Hide progress bar and show page title if finish
                     findViewById(R.id.pb_WebView).setVisibility(View.GONE);
                     setTitle(webView.getTitle().replaceFirst("موقع معهد الدين القيم - " , ""));
                 }
@@ -84,19 +109,15 @@ public class MainActivityJ extends AppCompatActivity {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
                         == PackageManager.PERMISSION_GRANTED) {
-                    Log.v("Error", "Permission is granted");
                     downloadDialog(url, userAgent, contentDisposition, mimetype);
 
                 } else {
-
-                    Log.v("Error", "Permission is revoked");
                     //requesting permissions.
                     ActivityCompat.requestPermissions(MainActivityJ.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
 
                 }
             } else {
                 //Code for devices below API 23 or Marshmallow
-                Log.v("Error", "Permission is granted");
                 downloadDialog(url, userAgent, contentDisposition, mimetype);
 
             }
@@ -155,6 +176,7 @@ public class MainActivityJ extends AppCompatActivity {
     }
 
 
+//    set on back pressed 2 method
     public void onBackPressed2() {
         //alertdialog
         new AlertDialog.Builder(MainActivityJ.this)
@@ -170,6 +192,8 @@ public class MainActivityJ extends AppCompatActivity {
                 })
                 .setNegativeButton("الغاء", null).show();
     }
+
+//    Override onbackpressed method
     @Override
     public void onBackPressed() {
 
@@ -196,6 +220,7 @@ public class MainActivityJ extends AppCompatActivity {
         }
     }
 
+//    Force Right to left method
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
     private void forceRTLIfSupported()
     {
@@ -204,4 +229,26 @@ public class MainActivityJ extends AppCompatActivity {
         }
     }
 
+//    Inflate action bar menu
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.action_bar_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.home_page:
+                webView.loadUrl(appSiteUrl);
+                return true;
+            case R.id.refresh:
+                webView.reload();
+                return true;
+        }
+        return false;
+    }
 }

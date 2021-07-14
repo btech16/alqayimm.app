@@ -5,9 +5,18 @@
       <root url="file://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/f5ed68b993d7392a2def9216e51a20c8/jetified-play-services-cloud-messaging-16.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/f5ed68b993d7392a2def9216e51a20c8/jetified-play-services-cloud-messaging-16.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/transforms-2/files-2.1/f5ed68b993d7392a2def9216e51a20c8/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6482ed4553a799857be758bf5e22b23b/jetified-play-services-cloud-messaging-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c9d58fb97dd4270ba7358f7d49230ee/jetified-play-services-cloud-messaging-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/666c9129dfcfd747de3768f66d1b9be1/jetified-play-services-cloud-messaging-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0b5e4844162d2f848038af796ea9ad17/transformed/jetified-play-services-cloud-messaging-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2cead36dc8772c0f3bf4836d12504bbc/transformed/jetified-play-services-cloud-messaging-16.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ed522694146a8a66c0a4673a0d4f7d61/transformed/jetified-play-services-cloud-messaging-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ed522694146a8a66c0a4673a0d4f7d61/transformed/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ed522694146a8a66c0a4673a0d4f7d61/transformed/jetified-play-services-cloud-messaging-16.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../AppsData/AndroidStudio/gradel/caches/modules-2/files-2.1/com.google.android.gms/play-services-cloud-messaging/16.0.0/66bcaa7ea2458690135561b6053cc71210dbd9dd/play-services-cloud-messaging-16.0.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-cloud-messaging/16.0.0/66bcaa7ea2458690135561b6053cc71210dbd9dd/play-services-cloud-messaging-16.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>
